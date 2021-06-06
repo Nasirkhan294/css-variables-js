@@ -1,0 +1,37 @@
+body {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  color: #20175d;
+  background: cyan;
+  text-align: center;
+}
+
+.controls {
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--base);
+}
+
+input {
+  width: 100px;
+}
+
+:root {
+  --base: rgba(255, 0, 0, 0.63);
+  --spacing: 10px;
+  --blur: 5px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.h1 {
+  color: var(--base);
+}
